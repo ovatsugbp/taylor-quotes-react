@@ -1,0 +1,31 @@
+.taylor-data{
+    margin: 10em 10em 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 20em;
+    margin: 5em 0;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color:tomato;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color:white;
+    color: tomato;
+    transition: 0.2s;
+}

@@ -11,12 +11,14 @@
     background-color: tomato;
     border-radius: 10px;
     border: none;
+    text-transform: uppercase;
   }
   .btn--light {
     color: #62BEBA;
     border: 1px solid #62BEBA;
     border-radius: 10px;
     background-color: none;
+    text-transform: uppercase;
   }
 
   .btn--donate--sm{
@@ -26,4 +28,18 @@
       font-weight: 600;
       text-transform: uppercase;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn--campaigns--lg{
+    width: 305px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .btn--form--xl{
+    width: 530px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 25px;
   }

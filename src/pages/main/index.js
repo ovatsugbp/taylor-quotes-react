@@ -32,7 +32,7 @@ export default class Main extends Component {
             <div className="taylor-data">                
             <Typography variant="subheading" color="primary">{quotes}</Typography>
             <img src={image} alt="Taylor Swift"></img>
-            <Button onClick={this.loadSwift}>testing</Button>
+            <Button onClick={this.loadSwift}>give me another round</Button>
             </div>
         )
     }

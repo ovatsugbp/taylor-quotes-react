@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .btn--solid {
+    color: #fff;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+  }
+  .btn--light {
+    color: #62BEBA;
+    border: 1px solid #62BEBA;
+    border-radius: 10px;
+    background-color: none;
+  }
+
+  .btn--donate--sm{
+      width: 163px;
+      height: 55px;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }

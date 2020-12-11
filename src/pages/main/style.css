@@ -12,7 +12,7 @@ img {
     margin: 5em 0;
 }
 
-button {
+/* button {
     border: none;
     border-radius: 20px;
     background-color:tomato;
@@ -28,4 +28,4 @@ button:hover{
     background-color:white;
     color: tomato;
     transition: 0.2s;
-}
+} */

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Typography from '../../Components/Typography';
+import Button from '../../Components/Button';
 import api from "../../services/api";
 import './style.css';
 
@@ -28,9 +30,9 @@ export default class Main extends Component {
         const {quotes, image} = this.state;
         return (
             <div className="taylor-data">                
-            <h1>{quotes}</h1>
+            <Typography variant="subheading" color="primary">{quotes}</Typography>
             <img src={image} alt="Taylor Swift"></img>
-            <button onClick={this.loadSwift}>Give me another one!</button>
+            <Button onClick={this.loadSwift}>testing</Button>
             </div>
         )
     }

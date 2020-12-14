@@ -1,5 +1,6 @@
 # Taylor React Quotes
 React project using Taylor Swift API quotes to deliver images and random quotes, you can acess clicking [here](https://taylor-quotes.netlify.app/).
+I this project I worked with styled Components (Typography and Buttons) to improve my knowledge and skills.
 
 ### 🛠 Tools:
 - JavaScript

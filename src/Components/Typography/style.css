@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap");
 
 body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
@@ -20,12 +20,11 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .typography--color-primary {
   color: #313131;
-  ;
 }
 .typography--color-secondary {
   color: #909395;
@@ -35,67 +34,64 @@ p {
 }
 
 .typography--variant-body1 {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 27px;
 }
 .typography--variant-body2 {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
 }
 .typography--variant-body3 {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
 }
 .typography--variant-body3bold {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
 }
-  
+
 .typography--variant-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    font-weight: 800;
-    font-style: normal;
-    line-height: 59px;
-    text-transform: uppercase;
-  }
-  
-  .typography--variant-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 800;
-    font-style: normal;
-    line-height: 29px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .typography--variant-h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 27px;
-    font-weight: 700;
-  }
-  .typography--variant-subheading {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-  }
-  
-  
-  
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+}
+
+.typography--variant-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 29px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.typography--variant-h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+.typography--variant-subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
